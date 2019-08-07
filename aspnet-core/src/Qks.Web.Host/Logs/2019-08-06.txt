@@ -1,0 +1,349 @@
+INFO  2019-08-06 16:32:12,696 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://127.0.0.1:45631/iisintegration  0
+INFO  2019-08-06 16:32:12,702 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.875ms 500 text/html; charset=utf-8
+DEBUG 2019-08-06 16:32:30,213 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-06 16:32:30,235 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-08-06 16:32:30,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.Web.Host.Startup.QksWebHostModule, Qks.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,256 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.QksWebCoreModule, Qks.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.QksApplicationModule, Qks.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,258 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.QksCoreModule, Qks.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,259 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,259 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,260 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,262 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,263 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.EntityFrameworkCore.QksEntityFrameworkModule, Qks.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,263 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,266 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,266 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,269 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-08-06 16:32:30,324 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 16:32:30,324 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 16:32:30,325 [1    ] o.Configuration.LanguageManagementConfig - Converted Qks (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 16:32:30,325 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 16:32:30,586 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Qks.EntityFrameworkCore.QksDbContext, Qks.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:32:30,950 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-06 16:32:31,009 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-06 16:32:31,049 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-06 16:32:31,064 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Qks
+DEBUG 2019-08-06 16:32:31,092 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-06 16:32:31,137 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-06 16:32:31,160 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-08-06 16:32:31,201 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-08-06 16:32:31,201 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-06 16:32:31,208 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Users.Dto.CreateUserDto
+DEBUG 2019-08-06 16:32:31,209 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Users.Dto.UserDto
+DEBUG 2019-08-06 16:32:31,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-06 16:32:31,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-06 16:32:31,212 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Roles.Dto.PermissionDto
+DEBUG 2019-08-06 16:32:31,213 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-06 16:32:31,213 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.MultiTenancy.Dto.TenantDto
+FATAL 2019-08-06 16:32:31,484 [1    ] Abp.AbpBootstrapper                      - System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at Microsoft.AspNetCore.Mvc.ApplicationParts.AssemblyPart..ctor(Assembly assembly)
+   at Abp.AspNetCore.AbpAspNetCoreModule.AddApplicationParts() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpAspNetCoreModule.cs:line 62
+   at Abp.AspNetCore.AbpAspNetCoreModule.PostInitialize() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpAspNetCoreModule.cs:line 50
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at Microsoft.AspNetCore.Mvc.ApplicationParts.AssemblyPart..ctor(Assembly assembly)
+   at Abp.AspNetCore.AbpAspNetCoreModule.AddApplicationParts() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpAspNetCoreModule.cs:line 62
+   at Abp.AspNetCore.AbpAspNetCoreModule.PostInitialize() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpAspNetCoreModule.cs:line 50
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+FATAL 2019-08-06 16:32:31,495 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at Microsoft.AspNetCore.Mvc.ApplicationParts.AssemblyPart..ctor(Assembly assembly)
+   at Abp.AspNetCore.AbpAspNetCoreModule.AddApplicationParts() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpAspNetCoreModule.cs:line 62
+   at Abp.AspNetCore.AbpAspNetCoreModule.PostInitialize() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpAspNetCoreModule.cs:line 50
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at Qks.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in D:\GitHub\Roc\4.7.1\aspnet-core\src\Qks.Web.Host\Startup\Startup.cs:line 103
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+INFO  2019-08-06 16:32:31,833 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-08-06 16:32:31,939 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 108.2278ms 500 text/html; charset=utf-8
+DEBUG 2019-08-06 16:56:04,205 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-06 16:56:04,235 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2019-08-06 16:56:04,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.Web.Host.Startup.QksWebHostModule, Qks.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,258 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.QksWebCoreModule, Qks.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,258 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.QksApplicationModule, Qks.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,259 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.QksCoreModule, Qks.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,260 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,260 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,261 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,262 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,263 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.EntityFrameworkCore.QksEntityFrameworkModule, Qks.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,263 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,266 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,266 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,267 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.Plugin.Application.QksPluginApplicationModule, Qks.Plugin.Application, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.Plugin.Core.QksPluginCoreModule, Qks.Plugin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.Plugin.EFCore.QksPluginEFCoreModule, Qks.Plugin.EFCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,273 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2019-08-06 16:56:04,322 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 16:56:04,322 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 16:56:04,323 [1    ] o.Configuration.LanguageManagementConfig - Converted Qks (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 16:56:04,323 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 16:56:04,590 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Qks.EntityFrameworkCore.QksDbContext, Qks.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,659 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Qks.Plugin.EFCore.QksPluginDbContext, Qks.Plugin.EFCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 16:56:04,969 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-06 16:56:05,034 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-06 16:56:05,081 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-06 16:56:05,100 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Qks
+DEBUG 2019-08-06 16:56:05,135 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-06 16:56:05,183 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-06 16:56:05,206 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-08-06 16:56:05,245 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-08-06 16:56:05,246 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-06 16:56:05,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Users.Dto.CreateUserDto
+DEBUG 2019-08-06 16:56:05,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Users.Dto.UserDto
+DEBUG 2019-08-06 16:56:05,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-06 16:56:05,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-06 16:56:05,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Roles.Dto.PermissionDto
+DEBUG 2019-08-06 16:56:05,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-06 16:56:05,256 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.MultiTenancy.Dto.TenantDto
+INFO  2019-08-06 16:56:08,673 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-08-06 16:56:08,915 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Qks.Web.Host.Controllers.HomeController.Index (Qks.Web.Host)'
+INFO  2019-08-06 16:56:09,782 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Qks.Web.Host.Controllers.HomeController.Index (Qks.Web.Host)
+INFO  2019-08-06 16:56:10,113 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Qks.Web.Host.Controllers.HomeController.Index (Qks.Web.Host) - Validation state: Valid
+INFO  2019-08-06 16:56:10,117 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Qks.Web.Host.Controllers.HomeController.Index (Qks.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.8032ms.
+INFO  2019-08-06 16:56:10,339 [16   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-08-06 16:56:10,351 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Qks.Web.Host.Controllers.HomeController.Index (Qks.Web.Host) in 564.3644ms
+INFO  2019-08-06 16:56:10,353 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Qks.Web.Host.Controllers.HomeController.Index (Qks.Web.Host)'
+INFO  2019-08-06 16:56:10,402 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1735.4782ms 302 
+INFO  2019-08-06 16:56:10,404 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2019-08-06 16:56:10,436 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.8313ms 301 
+INFO  2019-08-06 16:56:10,441 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-08-06 16:56:10,602 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 161.5023ms 200 text/html
+INFO  2019-08-06 16:56:10,734 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-08-06 16:56:10,946 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 211.6254ms 200 application/json;charset=utf-8
+INFO  2019-08-06 16:56:32,594 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/MyUser/GetUser  
+INFO  2019-08-06 16:56:32,598 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application)'
+INFO  2019-08-06 16:56:32,611 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetUser", controller = "MyUser"}. Executing action Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application)
+INFO  2019-08-06 16:56:32,734 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application) - Validation state: Valid
+INFO  2019-08-06 16:56:32,751 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 16.3143ms.
+INFO  2019-08-06 16:56:32,780 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-06 16:56:32,798 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application) in 187.1486ms
+INFO  2019-08-06 16:56:32,799 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application)'
+INFO  2019-08-06 16:56:32,801 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 206.1607ms 200 application/json; charset=utf-8
+INFO  2019-08-06 16:56:49,313 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:21021/api/services/app/Plugin/Update  0
+INFO  2019-08-06 16:56:49,320 [24   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-08-06 16:56:49,321 [24   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-08-06 16:56:49,327 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Qks.Plugin.PluginAppService.Update (Qks.Application)'
+INFO  2019-08-06 16:56:49,331 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Update", controller = "Plugin"}. Executing action Qks.Plugin.PluginAppService.Update (Qks.Application)
+INFO  2019-08-06 16:56:49,333 [24   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-08-06 16:56:49,334 [24   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-08-06 16:56:49,355 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Qks.Plugin.PluginAppService.Update (Qks.Application) - Validation state: Valid
+DEBUG 2019-08-06 16:56:49,359 [24   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-08-06 16:56:49,361 [24   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-06 16:56:49,362 [24   ] rization.Users.UserTokenExpirationWorker - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-08-06 16:56:49,364 [24   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-06 16:56:49,364 [24   ] rization.Users.UserTokenExpirationWorker - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-08-06 16:56:49,364 [24   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+INFO  2019-08-06 16:56:49,365 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Qks.Plugin.PluginAppService.Update (Qks.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 9.3483ms.
+INFO  2019-08-06 16:56:49,374 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-06 16:56:49,376 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Qks.Plugin.PluginAppService.Update (Qks.Application) in 43.4346ms
+INFO  2019-08-06 16:56:49,376 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Qks.Plugin.PluginAppService.Update (Qks.Application)'
+INFO  2019-08-06 16:56:49,378 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.5879ms 200 application/json; charset=utf-8
+DEBUG 2019-08-06 16:56:59,039 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-06 16:56:59,129 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+FATAL 2019-08-06 16:56:59,161 [1    ] Abp.AbpBootstrapper                      - Castle.MicroKernel.ComponentRegistrationException: Component Qks.QksCoreModule could not be registered. There is already a component with that name. Did you want to modify the existing component instead? If not, make sure you specify a unique name.
+   at Castle.MicroKernel.SubSystems.Naming.DefaultNamingSubSystem.Register(IHandler handler)
+   at Castle.MicroKernel.DefaultKernel.AddCustomComponent(ComponentModel model)
+   at Castle.MicroKernel.Registration.ComponentRegistration`1.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   at Castle.MicroKernel.DefaultKernel.Register(IRegistration[] registrations)
+   at Castle.Windsor.WindsorContainer.Register(IRegistration[] registrations)
+   at Abp.Dependency.IocManager.Register(Type type, DependencyLifeStyle lifeStyle) in D:\Github\aspnetboilerplate\src\Abp\Dependency\IocManager.cs:line 127
+   at Abp.Modules.AbpModuleManager.RegisterModules(ICollection`1 moduleTypes) in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 127
+   at Abp.Modules.AbpModuleManager.LoadAllModules() in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 72
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+Castle.MicroKernel.ComponentRegistrationException: Component Qks.QksCoreModule could not be registered. There is already a component with that name. Did you want to modify the existing component instead? If not, make sure you specify a unique name.
+   at Castle.MicroKernel.SubSystems.Naming.DefaultNamingSubSystem.Register(IHandler handler)
+   at Castle.MicroKernel.DefaultKernel.AddCustomComponent(ComponentModel model)
+   at Castle.MicroKernel.Registration.ComponentRegistration`1.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   at Castle.MicroKernel.DefaultKernel.Register(IRegistration[] registrations)
+   at Castle.Windsor.WindsorContainer.Register(IRegistration[] registrations)
+   at Abp.Dependency.IocManager.Register(Type type, DependencyLifeStyle lifeStyle) in D:\Github\aspnetboilerplate\src\Abp\Dependency\IocManager.cs:line 127
+   at Abp.Modules.AbpModuleManager.RegisterModules(ICollection`1 moduleTypes) in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 127
+   at Abp.Modules.AbpModuleManager.LoadAllModules() in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 72
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+FATAL 2019-08-06 16:56:59,172 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+Castle.MicroKernel.ComponentRegistrationException: Component Qks.QksCoreModule could not be registered. There is already a component with that name. Did you want to modify the existing component instead? If not, make sure you specify a unique name.
+   at Castle.MicroKernel.SubSystems.Naming.DefaultNamingSubSystem.Register(IHandler handler)
+   at Castle.MicroKernel.DefaultKernel.AddCustomComponent(ComponentModel model)
+   at Castle.MicroKernel.Registration.ComponentRegistration`1.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   at Castle.MicroKernel.DefaultKernel.Register(IRegistration[] registrations)
+   at Castle.Windsor.WindsorContainer.Register(IRegistration[] registrations)
+   at Abp.Dependency.IocManager.Register(Type type, DependencyLifeStyle lifeStyle) in D:\Github\aspnetboilerplate\src\Abp\Dependency\IocManager.cs:line 127
+   at Abp.Modules.AbpModuleManager.RegisterModules(ICollection`1 moduleTypes) in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 127
+   at Abp.Modules.AbpModuleManager.LoadAllModules() in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 72
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at Qks.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in D:\GitHub\Roc\4.7.1\aspnet-core\src\Qks.Web.Host\Startup\Startup.cs:line 104
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+INFO  2019-08-06 16:56:59,515 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-08-06 16:56:59,615 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.756ms 500 text/html; charset=utf-8
+DEBUG 2019-08-06 17:00:10,022 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-06 17:00:10,061 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2019-08-06 17:00:10,083 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.Web.Host.Startup.QksWebHostModule, Qks.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,088 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.QksWebCoreModule, Qks.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,089 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.QksApplicationModule, Qks.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,090 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.QksCoreModule, Qks.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,091 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,091 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,092 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,093 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.EntityFrameworkCore.QksEntityFrameworkModule, Qks.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,095 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,095 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,096 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,096 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,098 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,099 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.Plugin.Application.QksPluginApplicationModule, Qks.Plugin.Application, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,099 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.Plugin.Core.QksPluginCoreModule, Qks.Plugin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.Plugin.EFCore.QksPluginEFCoreModule, Qks.Plugin.EFCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,105 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2019-08-06 17:00:10,160 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 17:00:10,161 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 17:00:10,161 [1    ] o.Configuration.LanguageManagementConfig - Converted Qks (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 17:00:10,162 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 17:00:10,430 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Qks.EntityFrameworkCore.QksDbContext, Qks.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,504 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Qks.Plugin.EFCore.QksPluginDbContext, Qks.Plugin.EFCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:10,801 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-06 17:00:10,863 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-06 17:00:10,911 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-06 17:00:10,929 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Qks
+DEBUG 2019-08-06 17:00:10,960 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-06 17:00:11,011 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-06 17:00:11,037 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-08-06 17:00:11,079 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-08-06 17:00:11,080 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-06 17:00:11,087 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Users.Dto.CreateUserDto
+DEBUG 2019-08-06 17:00:11,089 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Users.Dto.UserDto
+DEBUG 2019-08-06 17:00:11,090 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-06 17:00:11,090 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-06 17:00:11,091 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Roles.Dto.PermissionDto
+DEBUG 2019-08-06 17:00:11,091 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-06 17:00:11,091 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.MultiTenancy.Dto.TenantDto
+INFO  2019-08-06 17:00:14,262 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-08-06 17:00:14,482 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Qks.Web.Host.Controllers.HomeController.Index (Qks.Web.Host)'
+INFO  2019-08-06 17:00:15,299 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Qks.Web.Host.Controllers.HomeController.Index (Qks.Web.Host)
+INFO  2019-08-06 17:00:15,637 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Qks.Web.Host.Controllers.HomeController.Index (Qks.Web.Host) - Validation state: Valid
+INFO  2019-08-06 17:00:15,641 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Qks.Web.Host.Controllers.HomeController.Index (Qks.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.9603ms.
+INFO  2019-08-06 17:00:15,850 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-08-06 17:00:15,861 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Qks.Web.Host.Controllers.HomeController.Index (Qks.Web.Host) in 558.2842ms
+INFO  2019-08-06 17:00:15,864 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Qks.Web.Host.Controllers.HomeController.Index (Qks.Web.Host)'
+INFO  2019-08-06 17:00:15,917 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1658.9671ms 302 
+INFO  2019-08-06 17:00:15,920 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-08-06 17:00:16,121 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 200.8541ms 200 text/html
+INFO  2019-08-06 17:00:16,257 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-08-06 17:00:16,472 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 215.4694ms 200 application/json;charset=utf-8
+INFO  2019-08-06 17:00:20,780 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/MyUser/GetUser  
+INFO  2019-08-06 17:00:20,783 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application)'
+INFO  2019-08-06 17:00:20,797 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetUser", controller = "MyUser"}. Executing action Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application)
+INFO  2019-08-06 17:00:20,917 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application) - Validation state: Valid
+INFO  2019-08-06 17:00:20,933 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 15.1107ms.
+INFO  2019-08-06 17:00:20,963 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-06 17:00:20,981 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application) in 183.7592ms
+INFO  2019-08-06 17:00:20,982 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application)'
+INFO  2019-08-06 17:00:20,983 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 203.2897ms 200 application/json; charset=utf-8
+INFO  2019-08-06 17:00:41,003 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:21021/api/services/app/Plugin/Update  0
+INFO  2019-08-06 17:00:41,012 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-08-06 17:00:41,014 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-08-06 17:00:41,019 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Qks.Plugin.PluginAppService.Update (Qks.Application)'
+INFO  2019-08-06 17:00:41,025 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Update", controller = "Plugin"}. Executing action Qks.Plugin.PluginAppService.Update (Qks.Application)
+INFO  2019-08-06 17:00:41,026 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-08-06 17:00:41,027 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-08-06 17:00:41,051 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Qks.Plugin.PluginAppService.Update (Qks.Application) - Validation state: Valid
+DEBUG 2019-08-06 17:00:41,055 [6    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-08-06 17:00:41,058 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-06 17:00:41,058 [6    ] rization.Users.UserTokenExpirationWorker - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-08-06 17:00:41,060 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-06 17:00:41,060 [6    ] rization.Users.UserTokenExpirationWorker - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-08-06 17:00:41,061 [6    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+INFO  2019-08-06 17:00:41,061 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Qks.Plugin.PluginAppService.Update (Qks.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 9.5334ms.
+INFO  2019-08-06 17:00:41,070 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-06 17:00:41,072 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Qks.Plugin.PluginAppService.Update (Qks.Application) in 46.1175ms
+INFO  2019-08-06 17:00:41,072 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Qks.Plugin.PluginAppService.Update (Qks.Application)'
+INFO  2019-08-06 17:00:41,074 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 71.5955ms 200 application/json; charset=utf-8
+DEBUG 2019-08-06 17:00:48,800 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-06 17:00:48,895 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2019-08-06 17:00:48,915 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.Web.Host.Startup.QksWebHostModule, Qks.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.QksWebCoreModule, Qks.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.QksApplicationModule, Qks.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.QksCoreModule, Qks.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,921 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,923 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,923 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,924 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.EntityFrameworkCore.QksEntityFrameworkModule, Qks.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,926 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,926 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.Plugin.Application.QksPluginApplicationModule, Qks.Plugin.Application, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.Plugin.Core.QksPluginCoreModule, Qks.Plugin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Qks.Plugin.EFCore.QksPluginEFCoreModule, Qks.Plugin.EFCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:48,935 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2019-08-06 17:00:48,986 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 17:00:48,987 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 17:00:48,987 [1    ] o.Configuration.LanguageManagementConfig - Converted Qks (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 17:00:48,988 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-06 17:00:49,265 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Qks.EntityFrameworkCore.QksDbContext, Qks.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:49,332 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Qks.Plugin.EFCore.QksPluginDbContext, Qks.Plugin.EFCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-06 17:00:49,627 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-06 17:00:49,688 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-06 17:00:49,730 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-06 17:00:49,747 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Qks
+DEBUG 2019-08-06 17:00:49,777 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-06 17:00:49,822 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-06 17:00:49,847 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-08-06 17:00:49,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-08-06 17:00:49,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-06 17:00:49,897 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Users.Dto.CreateUserDto
+DEBUG 2019-08-06 17:00:49,898 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Users.Dto.UserDto
+DEBUG 2019-08-06 17:00:49,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-06 17:00:49,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-06 17:00:49,900 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.Roles.Dto.PermissionDto
+DEBUG 2019-08-06 17:00:49,900 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-06 17:00:49,901 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Qks.MultiTenancy.Dto.TenantDto
+INFO  2019-08-06 17:00:53,423 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-08-06 17:00:53,909 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 490.7008ms 200 text/html
+INFO  2019-08-06 17:00:54,045 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-08-06 17:00:54,052 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2019-08-06 17:00:54,087 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-08-06 17:00:54,088 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.8621ms 200 image/png
+INFO  2019-08-06 17:00:54,283 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 237.7363ms 200 application/json;charset=utf-8
+INFO  2019-08-06 17:00:58,839 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/MyUser/GetUser  
+INFO  2019-08-06 17:00:58,846 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application)'
+INFO  2019-08-06 17:00:59,682 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetUser", controller = "MyUser"}. Executing action Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application)
+INFO  2019-08-06 17:00:59,846 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application) - Validation state: Valid
+INFO  2019-08-06 17:00:59,864 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 15.1278ms.
+INFO  2019-08-06 17:01:00,085 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-06 17:01:00,110 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application) in 424.0991ms
+INFO  2019-08-06 17:01:00,112 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Qks.Plugin.Application.MyUserAppService.GetUser (Qks.Plugin.Application)'
+INFO  2019-08-06 17:01:00,123 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1283.7508ms 200 application/json; charset=utf-8
+INFO  2019-08-06 17:47:20,880 [63   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://127.0.0.1:26117/iisintegration  0
+INFO  2019-08-06 17:47:20,886 [63   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.2376ms 202 
+DEBUG 2019-08-06 17:47:20,889 [59   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-08-06 17:47:20,893 [59   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-06 17:47:20,894 [59   ] rization.Users.UserTokenExpirationWorker - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-08-06 17:47:20,896 [59   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-06 17:47:20,897 [59   ] rization.Users.UserTokenExpirationWorker - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-08-06 17:47:20,897 [59   ] Abp.Modules.AbpModuleManager             - Shutting down completed.

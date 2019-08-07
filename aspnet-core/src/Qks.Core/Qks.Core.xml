@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Qks.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Qks.AppVersionHelper">
+            <summary>
+            Central point for application version.
+            </summary>
+        </member>
+        <member name="F:Qks.AppVersionHelper.Version">
+            <summary>
+            Gets current version of the application.
+            It's also shown in the web page.
+            </summary>
+        </member>
+        <member name="P:Qks.AppVersionHelper.ReleaseDate">
+            <summary>
+            Gets release (last build) date of the application.
+            It's shown in the web page.
+            </summary>
+        </member>
+        <member name="P:Qks.Plugin.PluginOptions.ProjectPath">
+            <summary>
+            项目路径
+            </summary>
+        </member>
+        <member name="P:Qks.Plugin.PluginOptions.PluginPath">
+            <summary>
+            插件路径
+            </summary>
+        </member>
+        <member name="P:Qks.Plugin.PluginOptions.Loaded">
+            <summary>
+            是否加载成功
+            </summary>
+        </member>
+        <member name="P:Qks.Plugin.PluginOptions.LoadMsg">
+            <summary>
+            加载结果
+            </summary>
+        </member>
+        <member name="P:Qks.Timing.AppTimes.StartupTime">
+            <summary>
+            Gets the startup time of the application.
+            </summary>
+        </member>
+        <member name="T:Qks.Web.WebContentDirectoryFinder">
+            <summary>
+            This class is used to find root path of the web project in;
+            unit tests (to find views) and entity framework core command line commands (to find conn string).
+            </summary>
+        </member>
+    </members>
+</doc>
