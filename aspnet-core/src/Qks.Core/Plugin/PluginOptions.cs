@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.AspNetCore.Hosting;
 
 namespace Qks.Plugin
 {
@@ -25,6 +26,11 @@ namespace Qks.Plugin
         /// 加载结果
         /// </summary>
         public string LoadMsg { get; internal set; }
+
+        /// <summary>
+        /// 环境
+        /// </summary>
+        public IHostingEnvironment Environment { get; set; }
 
         public PluginOptions()
         {

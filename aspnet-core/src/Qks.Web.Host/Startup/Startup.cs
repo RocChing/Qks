@@ -29,8 +29,10 @@ namespace Qks.Web.Host.Startup
 
         private readonly IConfigurationRoot _appConfiguration;
 
+        private readonly IHostingEnvironment _env;
         public Startup(IHostingEnvironment env)
         {
+            _env = env;
             _appConfiguration = env.GetAppConfiguration();
         }
 
@@ -85,7 +87,7 @@ namespace Qks.Web.Host.Startup
             });
 
             services.RegisterQksService();
-            bool hasPlugin = services.RegisterQksPlugin();
+            bool hasPlugin = services.RegisterQksPlugin(_env);
 
             // Configure Abp and Dependency Injection
             return services.AddAbp<QksWebHostModule>(

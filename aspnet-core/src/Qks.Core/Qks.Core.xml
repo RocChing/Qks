@@ -41,6 +41,11 @@
             加载结果
             </summary>
         </member>
+        <member name="P:Qks.Plugin.PluginOptions.Environment">
+            <summary>
+            环境
+            </summary>
+        </member>
         <member name="P:Qks.Timing.AppTimes.StartupTime">
             <summary>
             Gets the startup time of the application.

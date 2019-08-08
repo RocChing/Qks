@@ -23,8 +23,6 @@ namespace Qks.Web.Host.Startup
         public override void Initialize()
         {
             IocManager.RegisterAssemblyByConvention(typeof(QksWebHostModule).GetAssembly());
-            Logger.Info("ENV_ROC");
-            Logger.Info(_env.EnvironmentName);
         }
     }
 }
