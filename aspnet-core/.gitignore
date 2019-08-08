@@ -9,6 +9,7 @@
 
 #add by roc
 Plugins/
+Logs/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
