@@ -20,10 +20,10 @@ namespace Qks.EntityFrameworkCore.Seed.Host
         {
             int? tenantId = null;
 
-            if (QksConsts.MultiTenancyEnabled == false)
-            {
-                tenantId = MultiTenancyConsts.DefaultTenantId;
-            }
+            //if (QksConsts.MultiTenancyEnabled == false)
+            //{
+            //    tenantId = MultiTenancyConsts.DefaultTenantId;
+            //}
 
             // Emailing
             AddSettingIfNotExists(EmailSettingNames.DefaultFromAddress, "admin@mydomain.com", tenantId);

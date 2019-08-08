@@ -24,6 +24,7 @@ namespace Qks.Roles.Dto
             CreateMap<Role, RoleListDto>();
             CreateMap<Role, RoleEditDto>();
             CreateMap<Permission, FlatPermissionDto>();
+            CreateMap<Permission, FlatPermissionWithLevelDto>();
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Qks.Migrator
 
         public QksMigratorModule(QksEntityFrameworkModule abpProjectNameEntityFrameworkModule)
         {
-            abpProjectNameEntityFrameworkModule.SkipDbSeed = true;
+            abpProjectNameEntityFrameworkModule.SkipDbSeed = false;
 
             _appConfiguration = AppConfigurations.Get(
                 typeof(QksMigratorModule).GetAssembly().GetDirectoryPathOrNull()

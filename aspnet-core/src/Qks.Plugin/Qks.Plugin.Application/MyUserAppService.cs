@@ -10,7 +10,7 @@ using Qks.Authorization.Users;
 
 namespace Qks.Plugin.Application
 {
-    [AbpAuthorize(PermissionNames.Pages_Users)]
+    [AbpAuthorize(PermissionNames.Admin_Users)]
     public class MyUserAppService : QksPluginAppServiceBase, IMyUserAppService
     {
         private readonly IRepository<UserEntity> _userRep;

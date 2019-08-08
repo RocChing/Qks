@@ -43,6 +43,7 @@ class RoleModule extends ListModule<RoleState, any, Role>{
         },
         async getAllPermissions(context: ActionContext<RoleState, any>) {
             let reponse = await Ajax.get('/Role/getAllPermissions');
+            console.log(reponse.data.result.items)
             context.state.permissions = reponse.data.result.items;
         }
     };

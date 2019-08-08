@@ -10,10 +10,9 @@ namespace Qks
         typeof(AbpAutoMapperModule))]
     public class QksApplicationModule : AbpModule
     {
-        private readonly Plugin.PluginOptions _pluginOpt;
-        public QksApplicationModule(Plugin.PluginOptions pluginOptions)
+        public QksApplicationModule()
         {
-            _pluginOpt = pluginOptions;
+
         }
         public override void PreInitialize()
         {
@@ -26,17 +25,7 @@ namespace Qks
 
             IocManager.RegisterAssemblyByConvention(thisAssembly);
 
-            //if (_pluginOpt.Loaded)
-            //{
-            //    var pluginAssembly = PluginHelper.GetPluginAssembly(QksConsts.Plugin.Application);
-            //    IocManager.RegisterAssemblyByConvention(pluginAssembly);
-            //    Configuration.Modules.AbpAutoMapper().Configurators.Add(cfg => cfg.AddMaps(pluginAssembly));
-            //}
-
-            Configuration.Modules.AbpAutoMapper().Configurators.Add(
-                // Scan the assembly for classes which inherit from AutoMapper.Profile
-                cfg => cfg.AddMaps(thisAssembly)
-            );
+            Configuration.Modules.AbpAutoMapper().Configurators.Add(cfg => cfg.AddMaps(thisAssembly));
         }
     }
 }

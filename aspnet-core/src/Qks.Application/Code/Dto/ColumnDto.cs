@@ -1,17 +1,18 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using Abp.Application.Services.Dto;
 
 namespace Qks.Code
 {
-    [Table("QksColumns")]
-    public class Column : FullEntity
+    public class ColumnDto
     {
+        [Required]
         [MaxLength(50)]
         public string Name { get; set; }
 
         [MaxLength(100)]
         public string FieldName { get; set; }
 
+        [Required]
         [MaxLength(50)]
         public string Type { get; set; }
 
@@ -22,10 +23,5 @@ namespace Qks.Code
         public bool IsAllowNull { get; set; }
 
         public int TableId { get; set; }
-
-        public Column()
-        {
-            IsAllowNull = true;
-        }
     }
 }

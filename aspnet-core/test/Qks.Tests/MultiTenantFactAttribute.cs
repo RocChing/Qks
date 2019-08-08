@@ -6,10 +6,10 @@ namespace Qks.Tests
     {
         public MultiTenantFactAttribute()
         {
-            if (!QksConsts.MultiTenancyEnabled)
-            {
-                Skip = "MultiTenancy is disabled.";
-            }
+            //if (!QksConsts.MultiTenancyEnabled)
+            //{
+            //    Skip = "MultiTenancy is disabled.";
+            //}
         }
     }
 }

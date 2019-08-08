@@ -15,10 +15,9 @@ namespace Qks
     [DependsOn(typeof(AbpZeroCoreModule))]
     public class QksCoreModule : AbpModule
     {
-        private readonly Plugin.PluginOptions _pluginOpt;
-        public QksCoreModule(Plugin.PluginOptions pluginOptions)
+        public QksCoreModule()
         {
-            _pluginOpt = pluginOptions;
+
         }
         public override void PreInitialize()
         {
@@ -43,8 +42,6 @@ namespace Qks
         public override void Initialize()
         {
             IocManager.RegisterAssemblyByConvention(typeof(QksCoreModule).GetAssembly());
-
-            //if (_pluginOpt.Loaded) IocManager.RegisterAssemblyByConvention(PluginHelper.GetPluginAssembly(QksConsts.Plugin.Core));
         }
 
         public override void PostInitialize()

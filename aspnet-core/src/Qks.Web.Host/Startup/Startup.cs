@@ -29,10 +29,8 @@ namespace Qks.Web.Host.Startup
 
         private readonly IConfigurationRoot _appConfiguration;
 
-        private readonly IHostingEnvironment _env;
         public Startup(IHostingEnvironment env)
         {
-            _env = env;
             _appConfiguration = env.GetAppConfiguration();
         }
 

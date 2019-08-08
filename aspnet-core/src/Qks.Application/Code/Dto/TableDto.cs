@@ -1,24 +1,27 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using Abp.Application.Services.Dto;
 using System.Collections.Generic;
 
 namespace Qks.Code
 {
-    [Table("QksTables")]
-    public class Table : FullEntity
+    public class TableDto : EntityDto<int>
     {
+        [Required]
         [MaxLength(QksConsts.Field.Len50)]
         public string Name { get; set; }
 
         [MaxLength(QksConsts.Field.Len50)]
         public string DbName { get; set; }
 
+        [Required]
         [MaxLength(QksConsts.Field.Len200)]
         public string Namespace { get; set; }
 
+        [Required]
         [MaxLength(QksConsts.Field.Len50)]
         public string ServiceName { get; set; }
 
+        [Required]
         [MaxLength(QksConsts.Field.Len50)]
         public string DtoName { get; set; }
 
@@ -45,12 +48,6 @@ namespace Qks.Code
         [MaxLength(QksConsts.Field.Len100)]
         public string DeletePermissionName { get; set; }
 
-        [ForeignKey("TableId")]
-        public virtual List<Column> Columns { get; set; }
-
-        public Table()
-        {
-
-        }
+        public List<ColumnDto> Columns { get; set; }
     }
 }

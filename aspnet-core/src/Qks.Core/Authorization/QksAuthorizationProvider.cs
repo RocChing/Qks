@@ -8,9 +8,13 @@ namespace Qks.Authorization
     {
         public override void SetPermissions(IPermissionDefinitionContext context)
         {
-            context.CreatePermission(PermissionNames.Pages_Users, L("Users"));
-            context.CreatePermission(PermissionNames.Pages_Roles, L("Roles"));
-            context.CreatePermission(PermissionNames.Pages_Tenants, L("Tenants"), multiTenancySides: MultiTenancySides.Host);
+            var userPermission = context.CreatePermission(PermissionNames.Admin_Users, L("Users"));
+            userPermission.CreateChildPermission(PermissionNames.Admin_Users_Create, L("Create"));
+            userPermission.CreateChildPermission(PermissionNames.Admin_Users_Delete, L("Delete"));
+            userPermission.CreateChildPermission(PermissionNames.Admin_Users_Edit, L("Edit"));
+
+            context.CreatePermission(PermissionNames.Admin_Roles, L("Roles"));
+            context.CreatePermission(PermissionNames.Admin_Tenants, L("Tenants"), multiTenancySides: MultiTenancySides.Host);
         }
 
         private static ILocalizableString L(string name)

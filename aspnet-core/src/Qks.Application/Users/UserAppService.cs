@@ -24,7 +24,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Qks.Users
 {
-    [AbpAuthorize(PermissionNames.Pages_Users)]
+    [AbpAuthorize(PermissionNames.Admin_Users)]
     public class UserAppService : AsyncCrudAppService<User, UserDto, long, PagedUserResultRequestDto, CreateUserDto, UserDto>, IUserAppService
     {
         private readonly UserManager _userManager;

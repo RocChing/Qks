@@ -15,6 +15,13 @@
         public const string QksCore = "Qks.Core";
         public const string QksWebHost = "Qks.Web.Host";
 
+        public class Field
+        {
+            public const int Len50 = 50;
+            public const int Len100 = 100;
+            public const int Len200 = 200;
+        }
+
         public class Plugin
         {
             public const string Name = "Plugin";

@@ -17,7 +17,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Qks.Roles
 {
-    [AbpAuthorize(PermissionNames.Pages_Roles)]
+    [AbpAuthorize(PermissionNames.Admin_Roles)]
     public class RoleAppService : AsyncCrudAppService<Role, RoleDto, int, PagedRoleResultRequestDto, CreateRoleDto, RoleDto>, IRoleAppService
     {
         private readonly RoleManager _roleManager;
@@ -104,6 +104,46 @@ namespace Qks.Roles
             return Task.FromResult(new ListResultDto<PermissionDto>(
                 ObjectMapper.Map<List<PermissionDto>>(permissions).OrderBy(p => p.DisplayName).ToList()
             ));
+        }
+
+        public Task<ListResultDto<FlatPermissionWithLevelDto>> GetAllPermissions2()
+        {
+            var permissions = PermissionManager.GetAllPermissions();
+            var rootPermissions = permissions.Where(p => p.Parent == null);
+
+            var result = new List<FlatPermissionWithLevelDto>();
+
+            foreach (var rootPermission in rootPermissions)
+            {
+                //var level = 0;
+                //AddPermission(rootPermission, permissions, result, level);
+                var flatPermission = ObjectMapper.Map<FlatPermissionWithLevelDto>(rootPermission);
+                result.Add(flatPermission);
+            }
+
+            return Task.FromResult(new ListResultDto<FlatPermissionWithLevelDto>
+            {
+                Items = result
+            });
+        }
+
+        private void AddPermission(Permission permission, IReadOnlyList<Permission> allPermissions, List<FlatPermissionWithLevelDto> result, int level)
+        {
+            var flatPermission = ObjectMapper.Map<FlatPermissionWithLevelDto>(permission);
+            //flatPermission.Level = level;
+            result.Add(flatPermission);
+
+            //if (permission.Children == null)
+            //{
+            //    return;
+            //}
+
+            //var children = allPermissions.Where(p => p.Parent != null && p.Parent.Name == permission.Name).ToList();
+
+            //foreach (var childPermission in children)
+            //{
+            //    AddPermission(childPermission, allPermissions, result, level + 1);
+            //}
         }
 
         protected override IQueryable<Role> CreateFilteredQuery(PagedRoleResultRequestDto input)
