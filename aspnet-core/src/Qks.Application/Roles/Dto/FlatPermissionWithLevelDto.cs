@@ -16,6 +16,8 @@ namespace Qks.Roles.Dto
 
         public bool Expand { get { return Children != null && Children.Count > 0; } }
 
-        public bool Selected { get; set; }
+        public bool Checked { get; set; }
+
+        public string Title { get { return DisplayName; } }
     }
 }

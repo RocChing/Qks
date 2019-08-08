@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
 using Qks.Utils;
 using Abp.Threading;
+using Abp.Extensions;
 
 namespace Qks.Plugin
 {

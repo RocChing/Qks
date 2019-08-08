@@ -37,7 +37,7 @@
     import { Component, Vue,Inject, Prop,Watch } from 'vue-property-decorator';
     import Util from '../../../lib/util'
     import AbpBase from '../../../lib/abpbase'
-    import Role from '@/store/entities/role';
+    import { Role, FlatPermission } from '@/store/entities/role';
     @Component
     export default class CreateRole extends AbpBase{
         @Prop({type:Boolean,default:false}) value:boolean;

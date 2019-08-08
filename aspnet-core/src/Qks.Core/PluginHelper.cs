@@ -6,6 +6,7 @@ using System.IO;
 using System.Runtime.Loader;
 using System.Linq;
 using Qks.Plugin;
+using Abp.Extensions;
 
 namespace Qks
 {

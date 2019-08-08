@@ -15,6 +15,9 @@
         public const string QksCore = "Qks.Core";
         public const string QksWebHost = "Qks.Web.Host";
 
+        public const string AdminAreaName = "Admin";
+        public const string AdminMenuName = "MainMenu";
+
         public class Field
         {
             public const int Len50 = 50;

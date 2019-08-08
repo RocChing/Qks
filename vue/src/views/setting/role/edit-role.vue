@@ -15,7 +15,7 @@
             </FormItem>
           </TabPane>
           <TabPane :label="L('RolePermission')" name="permission">
-            <CheckboxGroup v-model="role.grantedPermissions">
+            <!-- <CheckboxGroup v-model="role.grantedPermissions">
               <Checkbox
                 :label="permission.name"
                 v-for="permission in permissions"
@@ -23,7 +23,8 @@
               >
                 <span>{{permission.displayName}}</span>
               </Checkbox>
-            </CheckboxGroup>
+            </CheckboxGroup>-->
+            <Tree :data="permissions" v-model="permissions" show-checkbox></Tree>
           </TabPane>
         </Tabs>
       </Form>
@@ -38,16 +39,14 @@
 import { Component, Vue, Inject, Prop, Watch } from "vue-property-decorator";
 import Util from "../../../lib/util";
 import AbpBase from "../../../lib/abpbase";
-import Role from "@/store/entities/role";
+import { Role, FlatPermission } from "@/store/entities/role";
 @Component
 export default class EditRole extends AbpBase {
   @Prop({ type: Boolean, default: false }) value: boolean;
   role: Role = new Role();
-  
+
   get permissions() {
-    // console.log(this.role)
-    // console.log(this.$store.state.role.permissions)
-    return this.$store.state.role.permissions;
+    return this.$store.state.role.allPermissions;
   }
   save() {
     (this.$refs.roleForm as any).validate(async (valid: boolean) => {

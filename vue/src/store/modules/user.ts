@@ -2,7 +2,7 @@ import {Store,Module,ActionContext} from 'vuex'
 import ListModule from './list-module'
 import ListState from './list-state'
 import User from '../entities/user'
-import Role from '../entities/role'
+import { Role, FlatPermission } from '../entities/role'
 import Ajax from '../../lib/ajax'
 import PageResult from '@/store/entities/page-result';
 import ListMutations from './list-mutations'
